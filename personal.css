@@ -1,0 +1,137 @@
+* {
+    margin:0;
+    margin:0; 
+    font-family:  verdana;
+ }
+ 
+ .navigasi {
+     background-color: blue;
+     width: 100px;
+     height: 20px;
+     color: white;
+     position: fixed;
+ }
+ 
+ .logo {
+     padding-top: 20px;
+     padding-bottom: 10px;
+     padding-left: 30px;
+ }
+ 
+ .menu {
+     margin-left: 100px;
+     padding-top: 27px;
+ }
+ 
+ .menu ul li {
+     list-style: none;
+     display: inline-block;
+     margin-right: 50px;
+ }
+ 
+ .menu ul li a{
+      text-decoration: none;
+      color: white;
+ }
+ 
+ .menu ul li a :hover {
+      color: lightskyblue;
+      font-style: italic;
+ }
+ 
+ .benner {
+    background-color: brown;
+    height:500px;
+    text-align: center;
+    width: white;
+ }
+
+ .benner img {
+    border-radius: 100px;
+    height: 150px;
+    border: 6px solid white;
+    margin-top: 100px;
+ }
+
+ .benner h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+ }
+
+.bemnner botton {
+    margin-top: 60px;
+    padding:10px;
+    width: 400px;
+    border-radius: 50px;
+    border: none;
+}
+
+.benner button:hover {
+     background-color: blue;
+     border: 1px solid white;
+     color: white;
+}
+
+h1 span::before{
+    content:"";
+    animation: gerak infinite;
+    transform: translateY(50%);
+    color: lightblue;
+    font-size: 70px;
+}
+
+.box-about me {
+    text-align: center;
+    color: red;
+    margin-top: 30px;
+    align-content: center;
+}
+.box-pendidikan {
+    text-align: center;
+    color: red;
+    margin-top: 30px;
+    align-content: center;
+}
+.box-kiri, box-tengah, box-kanan {
+    width: 100px;
+    height: 320px;
+    background-color: red;
+    text-align: center;
+    padding: 30px 30px;
+    margin: 70px 30px 20px 55px;
+    border-radius: 10px;
+    float: left;
+}
+
+.box-kiei, box-kanan, box-kanan {
+    background-color:blue;
+    color: white;
+
+}
+
+.box-pendidikan h3, p {
+     margin-top: 10px;
+     margin-bottom: 13px;
+     padding-top: 0px 20px ;
+}
+
+.box-contact img {
+    width: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.box-contact {
+    text-align: center;
+    color:blue;
+    margin-top: 500px;
+}
+
+.footer {
+    background-color: grey;
+    width: 100px;
+    height:40px;
+    color: white;
+    padding: 3px;
+    margin: 50px auto 0px;
+}

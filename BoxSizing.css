@@ -1,0 +1,17 @@
+.div {
+    width: 600px;
+    margin: 10px auto;
+    box-sizing: border-bor;
+}
+
+.satu{
+    background-color: coral;
+    padding: 20px;
+    border: 50px solid black;
+}
+
+.dua {
+    background-color:yellow;
+    padding: 30px;
+    border: 50px deshed blue;
+}
